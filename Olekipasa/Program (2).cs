@@ -10,25 +10,31 @@ namespace App1337
     {
         static void Main()
         {
-            First fr = new First(3);
             Console.WriteLine("Всё про одномерные массивы:");
+            Console.WriteLine("Введите количество элементов массива");
+            First fr = new First(int.Parse(Console.ReadLine()));
             fr.MakeArray();
             fr.FindMiddle();
             fr.WriteAll();
             Console.WriteLine("");
+            Console.WriteLine("");
 
 
-            Second sc = new Second(3, 3);
             Console.WriteLine("Всё про двумерные массивы:");
+            Console.WriteLine("Введите количество строк и стобцов двумерного массива");
+            Second sc = new Second(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()));
             sc.MakeArray();
             sc.FindMiddle();
             sc.WriteAll();
             Console.WriteLine("");
+            Console.WriteLine("");
 
-            Third th = new Third(3);
+            
+            Console.WriteLine("Всё про ступенчатые массивы:");
+            Console.WriteLine("Введите количество строк ступенчатого массива");
+            Third th = new Third(int.Parse(Console.ReadLine()));
             Console.WriteLine("Создайте ступенчатый массив по своим критериям");
             th.MakeArray();
-            Console.WriteLine("Всё про ступенчатые массивы:");
             th.FindMiddle();
             th.WriteAll();
         }
