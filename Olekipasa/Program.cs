@@ -16,7 +16,7 @@ namespace App1337
             arrays[2] = new Third(3);
 
             Console.WriteLine("Всё про одномерные массивы:");
-            arrays[0].Makearray();
+            arrays[0].MakeArray();
             arrays[0].FindMiddle();
             arrays[0].WriteAll();
             Console.WriteLine("");
