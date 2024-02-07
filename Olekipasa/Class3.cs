@@ -18,12 +18,10 @@ namespace App1337
         public override void MakeArray()
         {
             _array = new int[_length][];
-            int dop = 0;
+            int dop = 3;
             int fop = 1;
             for (int i = 0; i < _length; i++)
             {
-                Console.WriteLine("Какой длины будет " + (i + 1) + " строка");
-                dop = int.Parse(Console.ReadLine());
                 _array[i] = new int[dop];
                 for (int j = 0; j < dop; j++)
                 {
