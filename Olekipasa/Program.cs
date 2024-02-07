@@ -24,17 +24,17 @@ namespace App1337
 
 
             Console.WriteLine("Всё про двумерные массивы:");
-            array[1].MakeArray();
-            array[1].FindMiddle();
-            array[1].WriteAll();
+            arrays[1].MakeArray();
+            arrays[1].FindMiddle();
+            arrays[1].WriteAll();
             Console.WriteLine("");
             Console.WriteLine("");
 
             
             Console.WriteLine("Всё про ступенчатые массивы:");
-            array[2].MakeArray();
-            array[2].FindMiddle();
-            array[2].WriteAll();
+            arrays[2].MakeArray();
+            arrays[2].FindMiddle();
+            arrays[2].WriteAll();
         }
     }
 }
